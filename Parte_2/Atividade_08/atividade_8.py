@@ -8,4 +8,4 @@ elif sexo=="mulher":
 else:
     print("Erro ao reconhecer sexo")
 
-print(f"Peso ideal: {peso_ideal/1000}")
+print(f"Peso ideal: {peso_ideal}")
