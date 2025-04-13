@@ -1,2 +1,2 @@
 # atividade1-algortimos
-Este repositório é referente a atividade 1 da disciplina de algoritmos no curso de Ciência de dados e Inteligência Artificial na Universidade Estadual de Londrina (UEL)
+This repository refers to Activity 1 of the Algorithms course in the Data Science and Artificial Intelligence program at the State University of Londrina (UEL).
