@@ -1,8 +1,7 @@
 from PyPDF2 import PdfReader, PdfWriter
 import os
 
-documento = 'quebrar_paginas_pdf\Parte_1.pdf'
-
+documento = 'atividade1-algortimos\quebrar_paginas_pdf\Parte_2.pdf'
 
 ler = PdfReader(documento)
 
@@ -11,7 +10,7 @@ for i, pagina in enumerate(ler.pages, start=1):
     writer = PdfWriter()
     writer.add_page(pagina)
 
-    diretorio = f'Parte_1\Atividade_{i}'
+    diretorio = f'atividade1-algortimos\Parte_2\Atividade_{i}'
     
     os.makedirs(diretorio, exist_ok=True)
 
